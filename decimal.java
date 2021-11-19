@@ -13,7 +13,7 @@ public class BigDecimalExample
         bd1 = bd1.multiply(bd2, MathContext.DECIMAL128);
         System.out.println("Result = " + bd1);
 
-        if (bd1..abs().compareTo(MIN_MAGNITUDE) >= 0) {
+        if (bd1.abs().compareTo(MIN_MAGNITUDE) >= 0) {
                 System.out.println("Not a subnormal");
         }
         else {
